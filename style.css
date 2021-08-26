@@ -1,0 +1,86 @@
+/*body{
+    background: #CCB8FE;
+} */
+h1{
+    text-align:center;
+    
+    background-color: rgb(127, 99, 228);
+}
+h1.nome{
+     font-style :italic;
+     font-family: Brush Script MT, Brush Script Std, cursive;
+
+     font-size:110px;
+     background-color:transparent;
+     background:transparent;
+     color:purple;
+}
+img{
+    max-width: 100%;
+}
+.footer{
+    background: seashell;
+    text-align: center;
+}
+p.sobremim{
+    text-align: center;
+}
+
+nav.navbar{
+  background-color:clear;
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  
+
+}
+
+nav.redes{
+  padding:0px;
+  margin: 0px;
+  background-color:rgb(187, 230, 238);
+  width: 60px;
+  height:250px ;
+  position: fixed;/*para fixar, enquanto o site roda*/
+  left:-20px;
+  font-size: 40px;
+  z-index: 2;
+  border-radius:25px; /*arendodamento da borda*/
+  top:200px;
+}
+
+ul.redes{
+   list-style:none;
+   position: absolute;
+  left:-20px;
+  width: 100%
+  
+   
+}
+p.espaco{
+  padding-right: 150px;
+  padding-left:150px;
+  font-size: 20px;
+  font-family: Arial;
+}
+p.espaco2{
+  padding-right: 50px;
+  padding-left:50px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+h2{
+  padding-right: 150px;
+  padding-left:150px;
+}
+@media screen and (max-width:767px) {
+  p.espaco{
+    padding-right:0px;
+  padding-left:0px;
+  }
+  h2{
+  padding-right: 0px;
+  padding-left:0px;
+}
+}

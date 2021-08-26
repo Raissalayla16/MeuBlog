@@ -1,0 +1,34 @@
+/*body{
+    background:rgb(240, 165, 177);
+} */
+h1{
+    text-align:center;
+    
+    background-color: rgb(127, 99, 228);
+}
+img{
+    max-width: 100%;
+}
+.footer{
+    background: seashell;
+    text-align: center;
+}
+p.sobremim{
+    text-align: center;
+}
+h2{
+    display:inline-block;
+    color:white;
+
+}
+iframe{
+  max-width:100%;
+}
+iframe.centro{  
+  text-align: center;
+  max-width:100%;
+}
+/*@media screen and (max-width:767px) {
+    iframe{
+  max-width:100%;
+} */
